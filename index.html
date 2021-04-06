@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+  <html>
+
+    <head>
+
+      <title>Lab 01b</title>
+
+      <style>
+        body {background-color: whitesmoke;}
+        main {background-color: blue;}
+        h1 {color:indigo; background-color: hotpink;}
+      </style>
+
+    </head>
+
+    <body>
+
+      <header>
+        Lets have a little fun with a madlib
+      </header>
+
+      <main>
+
+        <h1>
+          Class 1 lab
+        </h1>
+
+        <p style="color: green; background-color: greenyellow;">Please enter an adjective</p>
+
+        <p style="color: red; background-color: palevioletred;">Please enter a type of animal</p>
+
+        <p style="color: brown; background-color: chocolate;">Please enter your favorite food</p>
+
+        <p style="color: black; background-color: grey;">Please enter your name</p>
+
+      </main>
+
+      <footer>
+        Honestly this is just some text to  put in here because it feels weird to leave it blank
+      </footer>
+
+      <script>
+
+        let userAdjective= prompt('Please enter an adjective');
+        console.log('The user selected adjective for the mad libs game was ' + userAdjective);
+
+        let userAnimal= prompt('Please enter a type of animal');
+        console.log('The user selected animal for the mad libs game was ' + userAnimal);
+
+        let userFood= prompt('Please enter your favorite food');
+        console.log('The user selected food for the mad libs game was ' + userFood);
+
+        let userName= prompt('Please enter your name');
+        console.log('The user name for the mad libs game was ' + userName);
+
+        alert('The ' + userAdjective + ' ' + userAnimal + ' quickly snuck away with the ' + userFood + ', taking it from ' + userName + ' and ruining the summer picnic');
+
+      </script>
+
+    </body>
+
+  </html>
